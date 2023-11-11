@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./build/app.css">
+  <title>Document</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="flex lg:justify-center lg:items-center h-screen">
+
+<main class="flex flex-col lg:flex-row items-center lg:items-stretch w-full lg:w-auto lg:shadow-lg lg:rounded-2xl">
+  <section class="flex flex-col items-center lg:justify-center w-full lg:w-auto bg-gradient-to-t from-light-royal-blue to-light-slate-blue rounded-b-2xl lg:rounded-3xl">
+    <h3 class="py-2 text-light-lavender">Tu resultado</h3>
+    <div class="flex flex-col items-center bg-gradient-to-t from-persian-blue to-violet-blue rounded-full p-5 w-[120px] my-2 text-white">
+      <p class="text-[40px] font-bold">76</p>
+      <p class="text-[13px] text-light-lavender">de 100</p>
+    </div>
+
+    <div class="flex flex-col items-center w-9/12">
+      <h2 class="my-2 text-white">Excelente</h2>
+      <p class="text-[13px] text-light-lavender text-center mt-2 mb-7">Obtienes una puntuación superior al 65% de las personas que han realizado estas pruebas.</p>
+    </div>
+  </section>
+
+  <section class="w-[90%] lg:w-[60%] lg:mx-10">
+    <h2 class="my-4">Resumen</h2>
+
+    <!--Reaction-->
+    <div class="flex justify-between bg-light-red-c p-3 rounded-xl w-[100%] mb-4">
+      <div class="flex">
+        <img src="./assets/images/icon-reaction.svg" alt="Icon" class="mr-2">
+        <p class="text-light-red">Reacción</p>
+      </div>
+  
+      <div>
+        <h2>80 <span class="text-gray-400">/ 100</span></h2>
+      </div>
+    </div>
+
+    <!--Memory-->
+    <div class="flex justify-between bg-orangey-yellow-c p-3 rounded-xl w-[100%] mb-4">
+      <div class="flex">
+        <img src="./assets/images/icon-memory.svg" alt="Icon" class="mr-2">
+        <p class="text-orangey-yellow">Memoria</p>
+      </div>
+  
+      <div>
+        <h2>92 <span class="text-gray-400">/ 100</span></h2>
+      </div>
+    </div>
+
+    <!--Verbal-->
+    <div class="flex justify-between bg-green-teal-c p-3 rounded-xl w-[100%] mb-4">
+      <div class="flex">
+        <img src="./assets/images/icon-verbal.svg" alt="Icon" class="mr-2">
+        <p class="text-green-teal">Verbal</p>
+      </div>
+  
+      <div>
+        <h2>61 <span class="text-gray-400">/ 100</span></h2>
+      </div>
+    </div>
+
+    <!--Visual-->
+    <div class="flex justify-between bg-cobalt-blue-c p-3 rounded-xl w-[100%] mb-4">
+      <div class="flex">
+        <img src="./assets/images/icon-visual.svg" alt="Icon" class="mr-2">
+        <p class="text-cobalt-blue">Visual</p>
+      </div>
+  
+      <div>
+        <h2>72 <span class="text-gray-400">/ 100</span></h2>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <a href="#" class="bg-dark-gray-blue text-white text-center p-3 w-[50%] lg:w-full rounded-full mt-2 mb-6">Continuar</a>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
