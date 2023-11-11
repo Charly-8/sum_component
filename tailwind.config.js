@@ -24,8 +24,8 @@ module.exports = {
         'white': 'hsl(0, 0%, 100%)' 
       },
       screens: {
-        'lg': {'min': '1025px'},
-        'md': {'min': '481', 'max': '1024px'},
+        'lg': {'min': '801px'},
+        'md': {'min': '481', 'max': '800px'},
         'sm': {'max': '480px'}
       }
     },
